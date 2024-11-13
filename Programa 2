@@ -1,0 +1,16 @@
+n1 = float(input('Inserir o primeiro numero: '))
+n2 = float(input('Inserir o segundo numero: '))
+n3 = float(input('Inserir o terceiro numero: '))
+
+if (n1 + n2 > n3) and (n3 + n2 > n1) and (n1 + n3 > n2):
+  print('Os valores formam um triangulo')
+
+  if (n1 == n2)  and (n2 == n3):
+    print('O triangulo é equilatero')
+  elif (n1 == n2) or (n2 == n3):
+    print('O triangulo é isósceles')
+  else:
+    print('O triangulo é escaleno') 
+
+else:
+    print('Os valores não podem formar um triângulo!')  
