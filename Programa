@@ -1,0 +1,35 @@
+n1 = float(input('Digite o primeiro valor: '))
+n2 = float(input('Digite o segundo valor: '))
+
+operacao = input('Insira a operação que deseja realizar(+, -, /, *): ')
+
+if operacao == '+':
+  resultado = n1 + n2
+
+elif operacao == '-':
+  resultado = n1 - n2
+elif operacao == '/':
+  resultado = n1 / n2
+elif operacao == '*':
+  resultado = n1 * n2
+else:
+  print('Operação inválida o resultado será 0')
+  resultado = 0
+
+
+if resultado % 2 == 0:
+  print('O resultado é par.')
+else:
+  print('O resultado é impar.')
+
+if resultado > 0:
+  print('O resultado é positivo')
+elif resultado == 0:
+  print('O resultado é neutro')
+
+if resultado % 1 == 0:
+  print('O resultado é inteiro')
+else:
+  print('O resultado é decimal')
+
+
