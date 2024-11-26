@@ -3,7 +3,7 @@ O programa lê dois números e permite que a pessoa usuária escolha uma operaç
 
 Programa 2
 
-ste programa tem como objetivo verificar se três números fornecidos pela pessoa usuária podem representar os lados de um triângulo. Para isso, ele segue uma regra básica da geometria: a soma de quaisquer dois lados deve ser maior que o terceiro. Caso os valores atendam a essa condição, o programa identifica o tipo do triângulo formado:
+Este programa tem como objetivo verificar se três números fornecidos pela pessoa usuária podem representar os lados de um triângulo. Para isso, ele segue uma regra básica da geometria: a soma de quaisquer dois lados deve ser maior que o terceiro. Caso os valores atendam a essa condição, o programa identifica o tipo do triângulo formado:
 
 Equilátero: todos os lados têm o mesmo comprimento.
 Isósceles: dois lados têm o mesmo comprimento.
