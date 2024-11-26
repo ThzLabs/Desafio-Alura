@@ -1,0 +1,16 @@
+vendas_2022 = float(input('Insira a quantidade de vendas para o ano de 2022: '))
+vendas_2023 = float(input('Insira a quantidade de vendas para o ano de 2023: '))
+
+variação = ((vendas_2022 / vendas_2023) - 1) * 100
+
+if variação > 20:
+  print('Bonificação para o time de vendas.')
+
+elif  2 <= variação <= 20:
+  print('Pequena bonificação para time de vendas.')
+
+elif -10 <= variação > 2:
+  print('planejamento de políticas de incentivo às vendas.')
+
+else:
+  print('Corte de gastos.')
