@@ -26,9 +26,11 @@ Este programa auxilia a empresa a tomar decisões baseadas em dados, promovendo 
 Programa 5
 
 Este programa solicita à pessoa usuária que insira um número inteiro de 1 a 10. Em seguida, gera e exibe a tabuada desse número no formato tradicional, mostrando as multiplicações de 1 a 10 com o respectivo resultado.
+
 Programa 6
 
 Este programa solicita à pessoa usuária que insira um número inteiro. Em seguida, verifica se o número é primo. Um número primo é aquele divisível apenas por 1 e por ele mesmo. O programa então informa se o número inserido é primo ou não.
+
 Programa 7
 
 Este programa permite a entrada contínua de idades de clientes de uma empresa de previdência. As idades são classificadas em intervalos: [0-25], [26-50], [51-75] e [76-100]. A entrada é finalizada ao se inserir um número negativo. O programa exibe a quantidade de clientes em cada faixa etária ao final.
